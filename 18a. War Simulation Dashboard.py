@@ -11,11 +11,11 @@
 #   streamlit run war_dashboard.py
 # ============================================================
 
-import random
+import streamlit as st
 import numpy as np
 import pandas as pd
-import streamlit as st
 import plotly.graph_objects as go
+import random
 from itertools import product
 
 # ============================================================
