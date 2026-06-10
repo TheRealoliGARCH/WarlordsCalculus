@@ -36,9 +36,9 @@ st.caption("Strength Transfer Warfare Model")
 
 st.sidebar.header("Scenario Setup")
 
-A = st.sidebar.number_input("Attackers (A)", 1, 20, 4)
-D = st.sidebar.number_input("Defenders (D)", 1, 20, 4)
-N = st.sidebar.number_input("Neutrals (N)", 0, 20, 3)
+A = st.sidebar.number_input("Attackers (A)", 1, 6, 3)
+D = st.sidebar.number_input("Defenders (D)", 1, 6, 3)
+N = st.sidebar.number_input("Neutrals (N)", 0, 6, 0)
 
 alpha = st.sidebar.slider(
     "Power Exponent (α)",
